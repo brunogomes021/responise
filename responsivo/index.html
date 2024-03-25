@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .content {
+            flex: 1;
+            margin-right: 10px;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #ddd;
+            padding: 10px;
+            margin-left: 10px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            clear: both;
+        }
+        .image-section {
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .image-section img {
+            width: calc(33.33% - 10px);
+            margin-bottom: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+        .video-container {
+            width: 100%;
+            margin-top: 20px;
+            position: relative;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar {
+                margin-top: 20px;
+                margin-left: 0;
+            }
+            .image-section img {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ceita da air fryer</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>air fryer </h2>
+            <p>air fryer mudam vidas.</p>
+        </div>
+        <div class="sidebar">
+            <h3>air fryer</h3>
+            <p>air fryer salva vidas</p>
+        </div>
+        <div class="image-section">
+            <img src="61EvpyEKKFL._AC_UF350,350_QL80_.jpg" alt="Imagem 1">
+            <img src="1694229238574.jpg" alt="Imagem 2">
+            <img src="images.jpg" alt="Imagem 3">
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tdRPjNV6VMk?si=qd7fQLojnXO8IHED" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th>Produto</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>air fryer</td>
+            <td>e vida</td>
+            <td>R$ 50,00</td>
+        </tr>
+        <tr>
+            <td>air fryer</td>
+            <td>e amor/td>
+            <td>R$ 75,00</td>
+        </tr>
+        <tr>
+            <td>air fryer</td>
+            <td>e qualidade</td>
+            <td>R$ 100,00</td>
+        </tr>
+        <tr>
+            <td>air fryer</td>
+            <td>e nessesario</td>
+            <td>R$ 120,00</td>
+        </tr>
+    </table>
+    <footer>
+        <p>&copy; 2024 air fryer Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
